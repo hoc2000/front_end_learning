@@ -1,0 +1,138 @@
+.headbar {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  height: 76px;
+  left: 0px;
+  top: 0px;
+  overflow-x: hidden;
+}
+
+#top {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 76px;
+  left: 0px;
+  top: 0px;
+  background: #f2bd01;
+  display: inline-block;
+}
+
+.brand {
+  position: absolute;
+  width: 291.47px;
+  height: 69px;
+  left: 242px;
+  top: 4px;
+  max-width: 100%;
+}
+.buttontop {
+  position: absolute;
+  width: 194px;
+  height: 40px;
+  left: 1488px;
+  top: 21px;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: right; */
+}
+.btn {
+  border: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  border-radius: 5px;
+  font-family: "Quantico";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f2bd01;
+
+  transition: 0.3s;
+}
+
+.button1:hover {
+  background: #f2bd01;
+  color: #000000;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1670px) {
+ .buttontop{
+   left:1200px;
+  }
+  .brand {
+    left:190px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+    .buttontop {
+      left: 1000px;
+    }
+    .brand {
+      left: 190px;
+    }
+  }
+@media only screen and (max-width: 1200px) {
+  .buttontop {
+    left: 800px;
+  }
+  .brand {
+    left: 190px;
+  }
+}
+@media only screen and (max-width: 968px) {
+  .buttontop {
+    left: 639px;
+  }
+  .brand {
+    top:18px;
+    height: 50px;
+    width: 190px;
+    left: 70px;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .buttontop {
+    width: 100px;
+    left: 350px;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+
+  .brand {
+    top: 9px;
+    height: 60px;
+    width: 220px;
+    left: 20px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .buttontop {
+    width: 100px;
+    left: 211px;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+
+  .brand {
+    top: 20px;
+    height: 40px;
+    width: 140px;
+    left: 20px;
+  }
+}
