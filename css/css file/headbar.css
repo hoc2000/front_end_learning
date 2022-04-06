@@ -1,14 +1,32 @@
-.headbar {
-  position: absolute;
+.header{
+  position: fixed;
   width: 100%;
-  margin: 0;
   height: 76px;
   left: 0px;
   top: 0px;
-  overflow-x: hidden;
-}
+  background-color: #f2bd01;
+  z-index: 99;
+  padding: 6px 0;
 
-#top {
+}
+.top {
+  
+  
+  left: 0px;
+  top: 0px;
+  right: 0px;
+
+}
+.container {
+ 
+  max-width: 1440px ;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* #top {
   position: absolute;
   display: flex;
   flex-wrap: wrap;
@@ -16,20 +34,32 @@
   height: 76px;
   left: 0px;
   top: 0px;
-  background: #f2bd01;
+  
   display: inline-block;
+} */
+#top_content{
+  background: transparent;
+  display: flex;
+  align-items: center;
+  height: auto;
+  
 }
-
+ 
+.navigation_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+}
 .brand {
-  position: absolute;
-  width: 291.47px;
-  height: 69px;
-  left: 242px;
-  top: 4px;
-  max-width: 100%;
+  
+      line-height: 70px;
+    padding: 0 15px;
+    color: #70798b;
+    font-size: 24px;
 }
-.buttontop {
-  position: absolute;
+#buttontop {
+  box-sizing: border-box;
   width: 194px;
   height: 40px;
   left: 1488px;
@@ -40,7 +70,7 @@
 }
 .btn {
   border: none;
-  position: absolute;
+  
   width: 100%;
   height: 100%;
   background: #000000;
@@ -64,34 +94,25 @@
 }
 
 @media only screen and (max-width: 1670px) {
- .buttontop{
-   left:1200px;
-  }
   .brand {
     left:190px;
   }
 }
 
 @media only screen and (max-width: 1400px) {
-    .buttontop {
-      left: 1000px;
-    }
+   
     .brand {
       left: 190px;
     }
   }
 @media only screen and (max-width: 1200px) {
-  .buttontop {
-    left: 800px;
-  }
+ 
   .brand {
     left: 190px;
   }
 }
 @media only screen and (max-width: 968px) {
-  .buttontop {
-    left: 639px;
-  }
+  
   .brand {
     top:18px;
     height: 50px;
@@ -102,10 +123,7 @@
 }
 
 @media only screen and (max-width: 500px) {
-  .buttontop {
-    width: 100px;
-    left: 350px;
-  }
+  
 
   .btn {
     font-size: 12px;
@@ -120,10 +138,7 @@
 }
 
 @media only screen and (max-width: 375px) {
-  .buttontop {
-    width: 100px;
-    left: 211px;
-  }
+  
 
   .btn {
     font-size: 12px;
