@@ -1,10 +1,8 @@
 .navigation {
   
-  width: 100%;
-  height: 94px;
-  left: -2px;
-  bottom: -77px;
-  background: #080a0b;
+    background: #080a0b;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 #navapp {
@@ -12,17 +10,19 @@
   flex-wrap: wrap;
   justify-content: center;
   color: aliceblue;
-  padding-top: 16px;
+ 
 }
 
 ul {
   list-style-type: none;
   padding: 0;
   display: flex;
+  margin:0;
+  align-items: center;
 }
 
 ul li{
-  margin: 0 16px;
+  margin: 0 20px;
 }
 
 ul li a  {
